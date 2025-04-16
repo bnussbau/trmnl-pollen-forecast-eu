@@ -1,0 +1,27 @@
+---
+strategy: polling
+no_screen_padding: 'no'
+dark_mode: 'no'
+static_data: ''
+polling_verb: get
+polling_url: https://air-quality-api.open-meteo.com/v1/air-quality?latitude={{lat}}&longitude={{lng}}&hourly=alder_pollen,birch_pollen,grass_pollen,mugwort_pollen,ragweed_pollen&current=alder_pollen,birch_pollen,grass_pollen,mugwort_pollen,ragweed_pollen&timezone={{time_zone | urlencode}}&forecast_days=2
+polling_headers: ''
+id: 56803
+custom_fields:
+- keyname: lat
+  field_type: string
+  name: latitude
+- keyname: lng
+  field_type: string
+  name: longitude
+- keyname: time_zone
+  field_type: time_zone
+  name: Time Zone
+  description: Where are you located?
+- keyname: location_name
+  field_type: string
+  name: Location Name
+  description: Location name will be shown in title bar
+  optional: true
+name: Pollen Forecast (Europe)
+refresh_interval: 60

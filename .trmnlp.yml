@@ -1,0 +1,15 @@
+---
+# auto-reload when files change (`watch: false` to disable)
+watch:
+  - src
+  - .trmnlp.yml
+
+# values of custom fields (defined in src/settings.yml)
+custom_fields:
+  lat: "48.20849"
+  lng: "16.37208"
+  time_zone: "Europe/Vienna"
+  location_name: "Vienna"
+
+# override variables
+variables:
