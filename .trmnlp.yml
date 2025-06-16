@@ -13,3 +13,6 @@ custom_fields:
 
 # override variables
 variables:
+  trmnl:
+    user: 
+      utc_offset: 0
