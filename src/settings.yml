@@ -4,8 +4,11 @@ no_screen_padding: 'no'
 dark_mode: 'no'
 static_data: ''
 polling_verb: get
+framework_version: 2.3.7
+serverless_language: 
 polling_url: https://air-quality-api.open-meteo.com/v1/air-quality?latitude={{lat}}&longitude={{lng}}&hourly=alder_pollen,birch_pollen,grass_pollen,mugwort_pollen,ragweed_pollen&current=alder_pollen,birch_pollen,grass_pollen,mugwort_pollen,ragweed_pollen&timezone={{time_zone | urlencode}}&forecast_days=2
 polling_headers: ''
+polling_body: ''
 id: 56803
 custom_fields:
 - keyname: lat

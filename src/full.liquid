@@ -104,7 +104,7 @@
   const seriesData = [
     { name: "Birch", data: birchData },
     { name: "Grass", data: grassData, dashStyle: "shortdot" },
-    { name: "Alder", data: alderData, birchData, dashStyle: "shortdash" },
+    { name: "Alder", data: alderData, dashStyle: "shortdash" },
     { name: "Mugwort", data: mugwortData },
     { name: "Ragweed", data: ragweedData, dashStyle: "shortdash" }
   ].filter(series => getMaxValue(series.data) > threshold);
