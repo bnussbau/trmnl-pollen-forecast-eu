@@ -4,13 +4,20 @@ no_screen_padding: 'no'
 dark_mode: 'no'
 static_data: ''
 polling_verb: get
-framework_version: 2.3.7
+framework_version: 3.1.1
 serverless_language: 
 polling_url: https://air-quality-api.open-meteo.com/v1/air-quality?latitude={{lat}}&longitude={{lng}}&hourly=alder_pollen,birch_pollen,grass_pollen,mugwort_pollen,ragweed_pollen&current=alder_pollen,birch_pollen,grass_pollen,mugwort_pollen,ragweed_pollen&timezone={{time_zone | urlencode}}&forecast_days=2
 polling_headers: ''
 polling_body: ''
 id: 56803
 custom_fields:
+- keyname: author_info
+  name: About This Plugin
+  description: 'Pollutants and pollen forecast in 11 km resolution. Data attribution: open-meteo.com. [Now built on Framework 3 and optimized for TRMNL X]'
+  field_type: author_bio
+  category: life,personal
+  github_url: https://github.com/bnussbau/trmnl-pollen-forecast-eu
+  email_address: trmnl@benjaminnussbaum.at
 - keyname: lat
   field_type: string
   name: latitude
