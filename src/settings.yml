@@ -16,6 +16,7 @@ custom_fields:
   description: 'Pollutants and pollen forecast in 11 km resolution. Data attribution: open-meteo.com. [Now built on Framework 3 and optimized for TRMNL X]'
   field_type: author_bio
   category: life,personal
+  help_text: TRMNL X Ready
   github_url: https://github.com/bnussbau/trmnl-pollen-forecast-eu
   email_address: trmnl@benjaminnussbaum.at
 - keyname: lat
